@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(15, 11, 12);
+    min-height: 90vh;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+
+  
+}
+#todoapp{
+    width:60% ;
+    background-color: rgb(177, 177, 237);
+    min-height: 200px;
+    margin: auto;
+    border-radius: .5em;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    width: 100%;
+}
+#input{
+    border: 0px;
+    width: 80%;
+    border-bottom: 2px solid rgb(142, 71, 236);
+    border-radius: .3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  background-color:inherit;
+
+}
+
+#input-container{
+    display: flex;
+}
+#container{
+    
+    border-radius: .5em;
+
+}
+#plus{
+    padding-left: 2%;
+}
+.task-list{
+    width: 90%;
+    margin-top: 2%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(15, 222, 222);
+    border-radius: .2em;
+
+    
+}
+button{
+   
+    cursor: pointer;
+    border: 0px;
+}
+.list{
+    width: 90%;
+    padding: 2%;
+}
+.finlist{
+    width: 90%;
+    padding: 2%;
+    text-decoration:line-through    ;
+}
+.edit-btn{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(9, 95, 2);
+}
+.del-btn{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(8, 233, 113);
+   
+}
+.fin-btn{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(176, 185, 185);
+}
+input{
+    border: 0;
+    background-color: rgb(142, 135, 135);
+    font-size: larger;
+    height: inherit;
+}
+.savebtn{
+    height: 100%;
+    width: 50px;
+    background-color: rgb(63, 241, 9);
+}
+.warn{
+ 
+    margin: 2%;
+}
