@@ -1,2 +1,2 @@
 # to-do-app
-<h1>MYTO DO APP</h1>
+<h1>MY TO DO APP</h1>
